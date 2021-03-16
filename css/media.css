@@ -1,0 +1,317 @@
+@media (max-width: 1200px) {
+  /* !KIRIESHKI */
+  .kirieshki__image {
+    margin-right: 25px;
+  }
+  /* !KIRIESHKI END*/
+  /* !CARD*/
+  .info__card {
+    padding-bottom: 30px;
+  }
+
+  .col-3 {
+    width: var(--col-6);
+    margin: 0 auto;
+  }
+
+  .card__item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .card__title {
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .card__text {
+    margin: 20px 0;
+  }
+
+  /* !CARD END*/
+
+   /* !FOOTER*/
+  .footer__link {
+    margin-left: 25px;
+  }
+
+   /* !FOOTER END*/
+}
+
+@media (max-width: 992px) {
+  /* !HEADER */
+
+  .header {
+    margin-bottom: 70px;
+  }
+
+  .header__subtitle {
+    font-size: 40px;
+  }
+
+  .header__title {
+    font-size: 60px;
+  }
+  /* !HEADER END*/
+  /* !MAIN*/
+
+  /* !KIRIESHKI*/
+
+  .kirieshki .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kirieshki__item {
+    flex-wrap: wrap;
+    width: 250px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kirieshki__image {
+    margin-bottom: 10px;
+  }
+
+  .kirieshki__image {
+    margin-left: 0;
+  }
+
+  .info__text {
+    margin: 10px 0;
+    line-height: 1.3;
+    /* width: 88%; */
+  }
+  /* !KIRIESHKI END */
+
+  /* !CITIES*/
+
+  .cities {
+    margin-top: 35px;
+  }
+
+  .cities__title {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+
+  .cities__list {
+    margin-right: 60px;
+  }
+
+  .cities__link {
+    font-size: 16px;
+  }
+
+  /* !CITIES END*/
+  /* !MAIN END*/
+
+  /* !FOOTER*/
+  .footer__logo {
+    font-size: 18px;
+  }
+
+  .footer__link {
+    font-size: 12px;
+    margin-left: 17px;
+  }
+
+  /* !FOOTER END*/
+}
+
+@media (max-width: 768px) {
+  /* !HEADER */
+
+  .header__subtitle {
+    font-size: 33px;
+  }
+
+  .header__title {
+    font-size: 45px;
+  }
+  /* !HEADER END*/
+  /* !MAIN*/
+
+  .kirieshki__item {
+    width: 220px;
+    margin-bottom: 40px;
+  }
+
+  .kirieshki__image {
+    width: 225px;
+  }
+
+  .info__title {
+    font-size: 16px;
+  }
+
+  .info__text {
+    font-size: 14px;
+  }
+
+  .info__buy {
+    padding: 7px 50px 7px 40px;
+    font-size: 14px;
+  }
+  /* ! INFO CARD */
+  .card__item {
+    max-width: 202px;  
+  }
+
+  /* ! INFO CARD END */
+
+  /* !CITIES*/
+  .cities .container {
+    flex-direction: column;
+  }
+
+  .cities__title {
+    margin-bottom: 25px;
+  }
+
+  .cities__list:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .cities__list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cities__link {
+    line-height: 1.6;
+  }
+
+  /* !CITIES END*/
+
+
+  /* !MAIN END*/
+   /* !FOOTER*/
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+
+  .footer__link {
+    font-size: 13px;
+    margin: 0 13px;
+  }
+
+
+   /* !FOOTER END*/
+}
+
+@media (max-width: 576px) {
+  /* !HEADER */
+
+  .header {
+    margin-bottom: 60px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+  }
+
+  .header__title {
+    font-size: 29px;
+  }
+  /* !HEADER END*/
+
+  /* !MAIN */
+  .col-6 {
+    width: var(--col-12);
+  }
+
+  .kirieshki__item {
+    margin-bottom: 30px;
+  }
+
+   /* ! INFO CARD */
+  .col-3 {
+    width: var(--col-12);
+  }
+
+  .card__item {
+    max-width: 190px;
+  }
+
+  .card__img {
+    max-width: 180px;
+  }
+
+  .card__title {
+    margin-left: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .card__text {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .card__more {
+    font-size: 14px;
+  }
+
+  .card__img:hover {
+    transform: scale(1.2);
+  }
+
+  /* ! INFO CARD END *
+
+  /* !CITIES*/
+  .cities {
+    margin-top: 25px;
+  }
+
+  .cities__title {
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+
+  .cities__list:nth-child(1) {
+    margin-bottom: 14px;
+  }
+
+
+  .cities__link {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* !CITIES END*/
+  /* !MAIN END*/
+  /* !FOOTER*/
+
+  .footer {
+    padding: 25px 0;
+  }
+
+  .footer__logo {
+    margin-bottom: 15px;
+  }
+
+  .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__link {
+    margin: 0 10px;
+    line-height: 1.7;
+  }
+
+  /* !FOOTER END*/
+}
+
